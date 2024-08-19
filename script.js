@@ -103,4 +103,7 @@ function mostraResultado(){
     caixaAlternativas.textContent = ""; 
 }
 
-mostraPergunta();
+function aleatorio (lista){
+    constb posicao = Math.floor (Math.random()* lista.lenght):
+    return lista[posicao];
+    
