@@ -52,7 +52,7 @@ function respostaSelecionada(opcaoSelecionada){
     if(opcaoSelecionada.proxima !== undefined)  {
           atual = opcaoselecionada.proxima;
     }else  {
-    mostrarResultado();
+    mostraResultado();
         return;
     }
     mostraPergunta();
