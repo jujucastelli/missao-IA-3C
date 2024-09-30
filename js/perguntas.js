@@ -1,51 +1,51 @@
 export const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "você gosta de TVD",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Sim",
+                    "sim kk"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "Não",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Não, muito",
+                    "Não"
                     ]
             }           
             
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "vc prefere filme ou serie",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"FIlme",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Filme é melhor que serie",
+                    "Filme obv"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Serie",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Serie ctz",
+                    "Serie"
                     ]
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Já viu orgulho e preconceito",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"Amo esse filme",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "sim",
+                    "sim"
                     ]
             },
             {
