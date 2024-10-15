@@ -6,7 +6,7 @@ export const perguntas = [
                 texto: "Sim",
                 afirmacao: [
                     "Sim",
-                    "sim kk"
+                    "não"
                     ]
             },
             {
@@ -51,8 +51,8 @@ export const perguntas = [
             {
                 texto:"Alternativa 2 da pergunta 3",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "sim",
+                    "não"
                     ]
             }
             
