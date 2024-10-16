@@ -1,32 +1,30 @@
 export const perguntas = [
     {
-        enunciado: "você gosta de TVD",
+        enunciado: "Uma dessas partes é responsável pela produção da voz. Qual?",
         alternativas: [
             {
-                texto: "Sim",
+                texto: "Traqueia",
                 afirmacao: [
-                    "Sim",
-                    "não"
-                    ]
-            },
+                    "Na verdade, sua função é filtrar, umedecer e aquecer o ar para conduzi-lo aos pulmões",
+                  ],
+                    proxima: 1,  // Direciona para a pergunta 2
+             },
             {
-                texto: "Não",
+                texto: " Laringe",
                 afirmacao: [
-                    "Não, muito",
-                    "Não"
-                    ]
-            }           
-            
+                    "Ela possibilita a passagem do ar e dos alimentos",
+                      ],
+                proxima: 1,  // Direciona para a pergunta 2
+            },
         ]
     },
     {
-        enunciado: "vc prefere filme ou serie",
-        alternativas: [
+enunciado: "Qual o nome do maior órgão do corpo humano?",
+        alternativas: [    
             {
-                texto:"FIlme",
+                texto:"Intestino delgado",
                 afirmacao: [
-                    "Filme é melhor que serie",
-                    "Filme obv"
+                    "O intestino delgado, embora longo (cerca de 6 a 7 metros), é especializado na absorção de nutrientes e possui uma estrutura adaptada para maximizar a área de superfície, mas isso não o torna o maior em volume",
                     ]
             },
             {
